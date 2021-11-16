@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Vadodara&family=Roboto&family=Sacramento&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alice&family=Cabin+Sketch&family=Dancing+Script&family=Monoton&family=Shalimar&family=Source+Sans+Pro&display=swap');
+*{
+     margin: 0;
+     padding: 0;
+ }
+
+ body {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 100vh;
+ }
+
+ .container-body {
+     background-image: url(/image/certificate-background\ .jpg);
+     background-repeat: no-repeat;
+     height: 80vh;
+     width: 70%;
+     border: 1px solid #cccccc76;
+    }
+    
+    .main-container{
+        position: relative;
+        top: 8rem;
+        
+    }
+    .seal-badge{
+        display: grid;
+        flex-direction: column;
+        justify-content: right;
+        /* align-items: center; */
+        position: relative;
+        bottom: 6rem;
+        right: 10rem;
+    }
+    .seal-badge img{
+        height: 8rem;
+        width: 6rem;
+    }
+    .seal-badge h5{
+        color:#25517d;
+        font-size: 13px;
+    }
+    span{
+        color:#5340b1 ;
+        font-size: 30px;
+          font-family: 'Roboto', sans-serif;
+    }
+     .container-content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+ .left {
+     text-align: right;
+     padding-right: 20px;
+     border-right: 1px solid #5340b1;
+ }
+
+ .right {
+     text-align: left;
+     margin-left: 20px;
+ }
+
+h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 2rem;
+    letter-spacing: 0.2rem;
+    color: #25517d;
+}
+h2{
+    font-family: 'Roboto', sans-serif;
+    color: #25517d;
+    font-size: 1.7rem;
+}
+
+h3{
+    font-size: 2rem;
+    font-family: 'Roboto', sans-serif;
+    color: #cfdee5;
+}
+
+h5{
+    font-size: 13px;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+}
+h4{
+   font-family: 'Shalimar', cursive; 
+   font-size: 60px;
+   color: #25517d;
+}
+p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    color: black;
+}
+
+
+
+
+.sign{
+    font-family: 'Shalimar', cursive; 
+    font-size: 40px;
+    color: #1d4a72;
+}
+.first-last-container{
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+
+.last-name, .first-name{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h6{
+ font-family: 'Roboto', sans-serif;;
+}
+.hr{
+    width: 7.5rem;
+}
